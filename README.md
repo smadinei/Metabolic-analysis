@@ -6,12 +6,21 @@ Back-support exoskeletons (BSEs) have emerged recently as a promising ergonomic 
 
 Participants performed the lowering/lifting trials in three conditions, involving different levels of Height and Symmetry (Fig. 1), which were intended to reflect a range of working postures frequent in the performance of manual material handling tasks, such as in warehouses and distribution centers ([Kuorinka et al., 1994](https://doi.org/10.1080/00140139408963680)). Symmetric lowering/lifting was done to/from two heights set based on individual anthropometry: mid-shank and knee level (respectively referred to as Sym_Ground and Sym_Knee hereinafter). Asymmetric lowering/lifting was done to/from a location 90º to the right of the mid-sagittal plane (referred to as Asy_Knee hereinafter). This latter task was only done at knee height, since reaching to/from mid-shank height was found to be challenging for many participants in pilot work. Note that the initial box location for all lowering/lifting conditions was set at individual waist height (i.e., anterior superior iliac spine), and the mid height of the shank was determined as the mid-point between the patella (knee height) and the lateral malleolus (ankle height). Target locations for placing the box were marked using wooden blocks, and the horizontal distances between the centers of the target locations on the table and on the floor were controlled (symmetric: 25 cm, asymmetric: 50 cm). Each lowering/ lifting cycle involved the following in sequence: 1) participant standing in the upright posture facing the box; 2) grasping the box and lowering it down to the target location; 3) lifting the box back to the initial location; and, 4) returning to the original, upright posture. Participants were allowed to freely choose their lifting style and feet location while maintaining a consistent feet location for the entire trial.
 
-![Exo Lifting Conditions](https://github.com/smadinei/Exo-Model/blob/main/Exo%20Lifting/Exo%20Torque%20Profile.png)
+![Exo Lifting Conditions](https://github.com/smadinei/Metabolic-analysis/blob/main/Metabolic%20analysis/Picture1.png)
 
 # Requirements
+Matlab > 2019
+
+COSMED Wearable Technology K5
 
 # Implementation
 Energy expenditure (metabolic cost) was determined through respiratory data collected using indirect calorimetry (CosMed K5, CosMed,
 Rome, Italy), the accuracy and precision of which has been reported earlier ([Perez-Suarez et al., 2018](https://doi.org/10.3389/fphys.2018.01764). Prior to each experimental session, a calibration procedure was completed following the manufacturer’s guidelines. Breath-by-breath oxygen and carbon-dioxide uptake rates
 (mL/min) collected from the calorimeter were smoothed using a 4th-order, low-pass, bidirectional, Butterworth filter with a cutoff frequency of
 0.33 Hz. The [Brockway (1987)](https://europepmc.org/article/med/3429265) equation was used to estimate relative energy expenditure rates (kcal/kg.min), and this approach accounted for both participant body mass and BSE mass (if used). Based on pilot work and earlier evidence ([Bilzon et al., 2001](https://doi.org/10.1080/00140130118253); [Åstrand et al., 2003](https://books.google.com/books id=BC9SiAsUPqsC&dq=extbook+of+Work+Physiology:+Physiological+Bases+of+Exercise&lr=&source=gbs_navlinks_s)), steady-state metabolic rate was determined by averaging relative energy expenditure rates over the last 1.5 min of each trial.
+
+# Findings
+Use of either BSE resulted in a significant reduction in energy expenditure for females (by 8.9% with Laevo™ and 13.2% with BackX™), while males experienced a significant reduction only when using the Laevo™ (by 6.4%). Further, use of either BSE led to a significant reduction in energy expenditure in both
+symmetric conditions. Specifically, in the Sym_Ground condition, the reductions were 9.5% with Laevo™ and 13.6% with BackX™; while in the Sym_Knee condition these reductions were 10.2% with Laevo™ and 8.1% with BackX™. In contrast, no significant reductions were observed in the asymmetric condition.
+
+![EE Rate](https://github.com/smadinei/Metabolic-analysis/blob/main/Metabolic%20analysis/Picture1.png)
