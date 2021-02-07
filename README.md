@@ -23,4 +23,4 @@ Rome, Italy), the accuracy and precision of which has been reported earlier ([Pe
 Use of either BSE resulted in a significant reduction in energy expenditure for females (by 8.9% with Laevo™ and 13.2% with BackX™), while males experienced a significant reduction only when using the Laevo™ (by 6.4%). Further, use of either BSE led to a significant reduction in energy expenditure in both
 symmetric conditions. Specifically, in the Sym_Ground condition, the reductions were 9.5% with Laevo™ and 13.6% with BackX™; while in the Sym_Knee condition these reductions were 10.2% with Laevo™ and 8.1% with BackX™. In contrast, no significant reductions were observed in the asymmetric condition.
 
-![EE Rate](https://github.com/smadinei/Metabolic-analysis/blob/main/Metabolic%20analysis/Picture1.png)
+![EE Rate](https://github.com/smadinei/Metabolic-analysis/blob/main/Metabolic%20analysis/EE%20Rate.jpg)
