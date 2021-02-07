@@ -1,5 +1,4 @@
-# Metabolic-analysis
-Metabolic demand analysis 
+# Metabolic-analysis 
 For more details please visit ([Madinei et al. 2020](https://doi.org/10.1016/j.apergo.2020.103156))
 
 # Introduction
